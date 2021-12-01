@@ -76,7 +76,7 @@ button {
 
 .square {
     width: calc(100% / var(--square-size));
-    height: calc(100% / var(--square-size));
+    height: initial;
     display: flex;
     align-items: center;
     justify-content: center;
