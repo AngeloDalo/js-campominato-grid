@@ -1,0 +1,57 @@
+:root {
+    --square-size: 10;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-row {
+    display: flex;
+}
+
+body {
+    font-size: 100%;
+}
+
+/*header*/
+header {
+    height: 5em;
+    padding: 1em;
+    background-color: white;
+}
+
+h1 {
+    font-size: 2em;
+    display: inline-block;
+    margin-left: 0.5em;
+}
+
+.header-sx,
+.header-dx {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    font-weight: bold;
+}
+
+.header-dx {
+    justify-content: flex-end;
+}
+
+header div img {
+    height: 100%;
+}
+
+#difficoltà {
+    width: 30%;
+    font-weight: bold;
+}
+
+button {
+    width: 10%;
+    font-weight: bold;
+}
+/*header*/
