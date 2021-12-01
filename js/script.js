@@ -16,7 +16,7 @@ function difficultGame (choise) {
 }
 
 const button = document.querySelector (".header-dx button");
-const level = document.getElementById ("difficoltà");
+const level = document.getElementById ("difficolta");
 
 button.addEventListener('click', function () {
     const element = this;
@@ -33,4 +33,10 @@ button.addEventListener('click', function () {
         grid.append (i);
         gridsGame.append(grid);
     }
+
+    /*const singleSquare = document.querySelectorAll (".square");
+    singleSquare[0].addEventListener('click', function () {
+        singleSquare[0].classList.add ("square-win-clicked");
+    });*/
 });
+
