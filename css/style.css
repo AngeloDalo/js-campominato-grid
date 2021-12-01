@@ -91,6 +91,10 @@ button {
 .square-lose-clicked {
     background-color: red;
 }
+
+.choise-difficult {
+    margin-left: 35%;
+}
 /*/main*/
 
 /*footer*/

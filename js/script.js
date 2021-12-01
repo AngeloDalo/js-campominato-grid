@@ -22,6 +22,8 @@ button.addEventListener('click', function () {
     const element = this;
     let gridsGame = document.querySelector (".grids-game");
     gridsGame.innerHTML = "";
+    let container = document.querySelector (".container h1");
+    container.innerHTML = "";
     //console.log (level.value);
     let numberSquare = difficultGame (level.value);
     //console.log (numberSquare);
