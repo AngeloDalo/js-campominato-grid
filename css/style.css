@@ -82,7 +82,15 @@ button {
     justify-content: center;
     cursor: pointer;
     border: 1px solid black;
-  }
+}
+
+.square-win-clicked {
+    background-color: blue;
+}
+
+.square-lose-clicked {
+    background-color: red;
+}
 /*/main*/
 
 /*footer*/
