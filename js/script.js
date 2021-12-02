@@ -7,10 +7,13 @@
 function difficultGame (choise) {
     //console.log (choise)
     if (choise == "Easy") {
+        document.documentElement.style.setProperty('--square-size', '7');
         return 49; 
     } else if (choise == "Medium") {
+        document.documentElement.style.setProperty('--square-size', '9');
         return 81;
     } else if (choise == "Hard") {
+        document.documentElement.style.setProperty('--square-size', '10');
         return 100;
     }
 }
@@ -19,6 +22,7 @@ const button = document.querySelector (".header-dx button");
 const level = document.getElementById ("difficolta");
 
 button.addEventListener('click', function () {
+    //creazione delle celle con numero in ordine crescente
     const element = this;
     let gridsGame = document.querySelector (".grids-game");
     gridsGame.innerHTML = "";
@@ -34,9 +38,7 @@ button.addEventListener('click', function () {
         gridsGame.append(grid);
     }
 
-    /*const singleSquare = document.querySelectorAll (".square");
-    singleSquare[0].addEventListener('click', function () {
-        singleSquare[0].classList.add ("square-win-clicked");
-    });*/
+    const singleSquare = document.querySelectorAll ("div.square");
+
 });
 

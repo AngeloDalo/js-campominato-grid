@@ -92,6 +92,10 @@ button {
     background-color: red;
 }
 
+.square-lose-none {
+    background-color: transparent;
+}
+
 .choise-difficult {
     margin-left: 35%;
 }
