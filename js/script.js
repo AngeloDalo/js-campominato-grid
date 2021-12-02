@@ -37,8 +37,12 @@ button.addEventListener('click', function () {
         grid.append (i);
         gridsGame.append(grid);
     }
-
     const singleSquare = document.querySelectorAll ("div.square");
 
+    for (i=0; i<=numberSquare; i++) {
+        singleSquare[i].addEventListener('click', function () {
+            this.classList.add ("square-win-clicked");
+        });
+    }
 });
 
